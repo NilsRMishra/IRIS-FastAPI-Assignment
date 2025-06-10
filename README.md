@@ -113,5 +113,3 @@ http://localhost:9090/{API Endpoints}
 #### 2. Table name label duplicated multiple times — currently returns only the second match.
 
 <!-- #### 3. Formulas or merged cells in Excel might not behave as expected unless handled via a better file processing engine. -->
-
->>>>>>> 1f2b56d (Submission for IRIS Assignment)
