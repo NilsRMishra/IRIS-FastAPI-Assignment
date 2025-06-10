@@ -1,0 +1,88 @@
+{
+	"id": "6e4fe517-4870-4f32-af9b-f202a83511f8",
+	"name": "IRIS",
+	"timestamp": "2025-06-10T13:23:34.552Z",
+	"collection_id": "45770205-651b2778-0712-4be6-a0a4-e5df366a2a34",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 0,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2025-06-10T13:23:34.113Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "b53f7ff5-2916-440b-b565-044f259217f0",
+			"name": "List Tables",
+			"url": "http://localhost:9090/list_tables",
+			"time": 7,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				7
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "988410d6-9091-4189-83cb-f62a178e7143",
+			"name": "Table Properties",
+			"url": "http://localhost:9090/get_table_details?table_name=OPERATING CASHFLOWS",
+			"time": 4,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				4
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "7cfa5f19-4f31-4e91-87ee-f80daa4c1c62",
+			"name": "Row Sum",
+			"url": "http://localhost:9090/row_sum?table_name=OPERATING CASHFLOWS&row_name=Revenues",
+			"time": 4,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				4
+			],
+			"allTests": [
+				{}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 15,
+	"collection": {
+		"requests": [
+			{
+				"id": "b53f7ff5-2916-440b-b565-044f259217f0",
+				"method": "GET"
+			},
+			{
+				"id": "988410d6-9091-4189-83cb-f62a178e7143",
+				"method": "GET"
+			},
+			{
+				"id": "7cfa5f19-4f31-4e91-87ee-f80daa4c1c62",
+				"method": "GET"
+			}
+		]
+	}
+}
